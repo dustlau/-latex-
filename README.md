@@ -5,4 +5,6 @@
 
 在github上收索发现[本科论文](https://github.com/latexstudio/szu)https://github.com/latexstudio/szu
 
-模板值得参考下，果断fork了。慢慢研究一下
+模板值得参考下，果断fork了。慢慢研究一下。
+
+毕竟今天没有成果，发现学习latex还是要先找个好例子。
