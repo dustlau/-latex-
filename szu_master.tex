@@ -1,13 +1,14 @@
 %!TEX program = xelatex
-\documentclass[a4paper]{article}
+\documentclass[a4paper]{book}
 \usepackage{ctex}
+\usepackage{xeCJK}
 \usepackage{fancyhdr}
 \usepackage{enumitem}  %列表间距
 
 
 \begin{document}
 %========论文封面==========
-\frontmatter
+% \frontmatter
 % \secretlevel{绝密} \secretyear{2100}
 
 % \ctitle{融合内容信息的单类协同过滤研究}
@@ -20,9 +21,15 @@
  
 % \csupervisor{潘微科}
 % \professionaltitle{讲师 }
+\begin{titlepage}
+
+\end{titlepage}
 %=========原创性声明与授权说明=========
 %========摘要中文==========
-
+\frontmatter
+%  \chapter {摘\quad 要}\chaptermark{摘\quad 要}  %%属于哪个包
+\chapter[中文摘要]{摘\quad 要}
+%方括号中是在目录中显示的内容，相当于前面使用的\addcontentsline中文摘要内容
 \pagestyle{fancy}
 \pagenumbering{Roman} %大写罗马字体
 \lhead{}
@@ -31,8 +38,10 @@
 \lfoot{}
 \cfoot{\thepage}
 \rfoot{}
-\begin{abstract}
-\end{abstract}
+% \begin{abstract}
+% % \keywords{\TeX, \LaTeX, CJK, 模板, 论文}
+% \end{abstract}
+
 % \renewcommand{\headrulewidth}{0.4pt}
 % \renewcommand{\footrulewidth}{0.4pt}
 %==========================================
@@ -95,8 +104,13 @@
 %====================================
 %==========结论========
 %==========参考文献========
+\backmatter     % 开始正文之后的部分
+\begin{thebibliography}{99}\addcontentsline{toc}{chapter}{参考文献}
+参考文献内容
+ \end{thebibliography}
 %=========附录========
 %=========致谢=========
+\chapter[致谢]{致\quad 谢}
 %========攻读硕士期间研究成果==========
 \end{document}
 %==================
