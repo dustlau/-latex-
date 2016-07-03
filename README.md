@@ -13,4 +13,4 @@
 Lyx装了，用不了。现在只能一个个google了。对了，github上很多Google hosts  大家可以参考下。
 
 stata在latex没有多少，想建立一个交流的平台。
-从刘海洋的书开始一步步学习 latex 。
+从刘海洋的书开始一步步学习 latex 。。
